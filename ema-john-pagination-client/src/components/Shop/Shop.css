@@ -40,6 +40,10 @@
     outline: 0;
 }
 
+.pagination button:disabled {
+    border: 1px solid gray;
+}
+
 .pagination select {
     font-size: 24px;
     margin-left: 10px;
