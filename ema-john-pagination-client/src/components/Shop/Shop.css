@@ -36,7 +36,15 @@
     border: 1px solid blue;
 }
 
+.pagination button:focus {
+    outline: 0;
+}
+
 .pagination select {
     font-size: 24px;
     margin-left: 10px;
+}
+
+.pagination .selected {
+    background-color: #ff9900;
 }
